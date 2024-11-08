@@ -1,0 +1,980 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;font-family: arial;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.nav-bar h1{
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar .menu{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 90px;
+    gap:30px;
+    position: relative;
+    margin-left: 5%;
+}
+
+.menu span{
+    font-size: 20px;
+    padding-left: 20%;
+}
+
+.menu img{
+    width:2.1%;
+    position: fixed;
+    margin-left: 7%;
+}
+
+/* first-section-container */
+.first-section-container{
+    width: 100%;
+    height: 80vh;
+    padding: 90px 155px;
+    position: relative;
+}
+
+.first-section-container h1{
+    font-size: 100px;
+    width: 65%;
+    font-family:"Roboto flex", sans-serif;
+    font-weight: 400;
+    font-stretch: 156%;
+}
+
+.first-section-container span{
+    display: flex;
+    width: 100%;
+    font-family:"Roboto flex", sans-serif;
+    font-weight: 100;
+    font-stretch: 176%;
+    gap: 20px;
+    font-weight: normal;
+}
+
+.first{
+    width: 9.5rem;
+    height: 6.88rem !important;
+    object-fit: cover;
+    border-radius:100px;
+}
+
+.men{
+    position: absolute;
+    position: fixed;
+    width: 7%;
+    border-radius:50%;
+    left:88%;
+    z-index: 111111111111;
+}
+
+.contact-animetion{
+    position: absolute;
+    width: 9.5%;
+    left:86.7%;
+    top: 72.5%;
+    position: fixed;
+    z-index: 11111111111;
+    animation-name: ani-1;
+    animation-duration:7s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+
+
+@keyframes ani-1{
+    0%{
+        transform:rotate(-360deg);
+
+    }
+
+    100%{
+
+        transform:rotate(0);
+    }
+}
+
+/* second-section-container */
+.second-section-container{
+    width: 100%;
+    height: 135vh;
+}
+
+.second-section-container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* third-section-container */
+.third-section-container{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+}
+
+.third-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-left video{
+    width: 70%;
+}
+
+.third-right {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.third-right span{
+    font-size: 32px;
+    width:70%;
+}
+
+.third-right button{
+    border:1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 80px 130px;
+    border-radius: 110px;
+    background-color: white;
+}
+
+/* four-section-container */
+.four-section-container {
+    width: 100%;
+    height: 750vh;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    background-color: rgba(0, 0, 0, 0.893);
+    padding: 0px 180px;
+}
+
+.four-section-container h1{
+    color: white;
+    font-size: 140px;
+    width: 60%;
+    font-weight: 100;
+    font-stretch: 210%;
+    padding-top: 150px;
+}
+
+.four-section-container span{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-family:"Roboto flex", sans-serif;
+    font-weight:lighter;
+    font-stretch: 250%;
+    font-style: italic;
+    font-size: 140px;
+    gap: 20px;
+}
+
+.four-section-container span video{
+    width: 30%;
+    border-radius: 75px;
+}
+
+.four-section{
+    width: 90%;
+    height:650vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+
+}
+
+/* 1 */
+.card-1{
+    width: 50%;
+    height: 710px;
+}
+
+.card-1 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-1 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 2 */
+.card-2{
+    width: 50%;
+    height: 710px;
+}
+
+.card-2 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-2 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 3 */
+.card-3{
+    width: 50%;
+    height: 710px;
+}
+
+.card-3 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-3 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 4 */
+.card-4 {
+    width: 50%;
+    height: 710px;
+}
+
+.card-4 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-4 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 5 */
+.card-5{
+    width: 50%;
+    height: 710px;
+}
+
+.card-5 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-5 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 6 */
+.card-6{
+    width: 50%;
+    height: 710px;
+}
+
+.card-6 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-6 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 7 */
+.card-7{
+    width: 50%;
+    height: 710px;
+}
+
+.card-7 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-7 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 8 */
+.card-8 {
+    width: 50%;
+    height: 710px;
+}
+
+.card-8 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-8 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 9 */
+.card-9{
+    width: 50%;
+    height: 710px;
+}
+
+.card-9 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-9 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* 10 */
+.card-10{
+    width: 50%;
+    height: 710px;
+}
+
+.card-10 video{
+    width:83%;
+    height: 640px;
+    border-radius:50px;
+    object-fit: cover;
+}
+
+.card-10 span{
+    color: white;
+    font-size: 27px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 30px;
+}
+
+/* five-section-container */
+.five-section-container{
+    width: 100%;
+    height: 185vh;
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    margin-top: -5%;
+    background-color: white;
+    padding: 150px 150px;
+}
+
+.five-section-container h1{
+    color: black;
+    font-weight:normal;
+    font-stretch: 350%;
+    font-style: italic;
+    font-size: 160px;
+    width: 50%;
+}
+
+.five-section{
+    /* border: 5px solid greenyellow; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.five-left{
+    /* border: 5px solid fuchsia; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five-left video {
+    width: 80%;
+}
+
+.five-right{
+    /* border: 5px solid mediumblue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.five-right p{
+    /* border: 3px solid forestgreen; */
+    font-size: 24px;
+    width: 75.5%;
+}
+
+/* six-section-container */
+.six-section-container{
+    width: 100%;
+    height: 230vh;
+    background-color: rgba(0, 0, 0, 0.893);
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    padding: 0px 150px;
+    
+}
+
+.six-section-container h1{
+    color: white;
+    font-weight:normal;
+    font-stretch: 350%;
+    font-size: 130px;
+    width: 65%;
+    padding-top: 150px;
+}
+
+.six-section-container h1 span{
+    font-weight:normal;
+    font-stretch: 350%;
+    font-style: italic;
+}
+
+.six-section-cards{
+    /* border: 5px solid fuchsia; */
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-top: 5%;
+    
+}
+
+/* 1 */
+.six-card-1 {
+    /* border: 3px solid chartreuse; */
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.six-card-1 img {
+    width: 90%;
+    border-radius: 30px;
+    transition: .6s linear;
+
+}
+
+.six-card-1 img:hover{
+    transform:scale(0.9);
+    transition: .6s linear;
+}
+
+.six-card-1 span{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+/* 2 */
+.six-card-2 {
+    /* border: 3px solid chartreuse; */
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.six-card-2 img{
+    width: 90%;
+    border-radius: 30px;
+    transition: .6s linear;
+}
+
+.six-card-2 img:hover{
+    transform:scale(0.9);
+    transition: .6s linear;
+}
+
+.six-card-2 span{
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+/* six-section */
+
+.six-section {
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+
+.six-left {
+ width: 50%;
+ /* border: 4px solid blue; */
+}
+
+.six-right {
+    width: 50%;
+    /* border: 4px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    justify-content:center;
+}
+
+.six-right p {
+    color: white;
+    font-size: 24px;
+    width: 70%;
+}
+
+.six-right button {
+    padding: 15px 30px;
+    border: 2px solid white;
+    font-size: 20px;
+    background: none;
+    border-radius: 50px;
+    color: white;
+}
+
+/* seven-section-container */
+.seven-section-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.seven-first-section{
+    display: flex;
+    /* flex-direction: row; */
+    
+}
+
+.infinite-h1 {
+    width:2300px;
+    height: 300px;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ani;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.infinite-h1 h1 {
+    font-weight:normal;
+    font-stretch: 350%;
+    font-style: italic;
+    font-size: 200px;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex; 
+}
+
+@keyframes ani{
+
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform:translateX(0%);
+    }
+
+}
+
+.seven-section-container h1 video{
+    width: 13%;
+    height: 170px;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 1%;
+}
+
+/* eight-section-container */
+.eight-section-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.eight-card-1 {
+    width: 23%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px ;
+    transition: .5s linear;
+}
+
+.eight-card-1:hover{
+    transform: scale(0.9);
+    transition: .5s linear;
+}
+
+
+.eight-card-1 img{
+    width: 100%;
+    border-radius: 50px;
+    scale: 1.2;
+    transition: .5s linear;
+}
+
+
+/* 2 */
+.eight-card-2 {
+    width: 23%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius:30px ;
+}
+
+.eight-card-2 img:hover{
+    transform: scale(0.9);
+    transition: .5s linear;
+}
+
+
+.eight-card-2 img{
+    width: 100%;
+    margin-top: 25%;
+    border-radius: 20px;
+    transition: .5s linear;
+}
+
+
+
+/* 3 */
+.eight-card-3 {
+    width: 23%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px ;
+    transition: .5s linear;
+}
+
+.eight-card-3:hover{
+    transform: scale(0.9);
+    transition: .5s linear;
+}
+
+.eight-card-3 img{
+    width: 100%;
+    border-radius: 50px;
+    scale: 1.2;
+}
+
+
+
+/* 4 */
+.eight-card-4 {
+    width: 23%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px ;
+
+}
+
+.eight-card-4 img {
+    width: 100%;
+    margin-top: 25%;
+    transition: .5s linear;
+    border-radius: 20px;
+}
+
+.eight-card-4 img:hover{
+    transform: scale(0.9);
+    transition: .5s linear;
+}
+
+/*nine-section-container */
+.nine-section-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.945);
+    
+}
+
+.nine-section{
+    display: flex;
+}
+
+.sliding-h1 {
+    width:1150px;
+    height: 300px;
+    color: white;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ani;
+    animation-duration: 12s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.sliding-h1 h1 {
+    font-weight:normal;
+    font-stretch: 350%;
+    /* font-style: italic; */
+    font-size: 200px;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex; 
+}
+
+@keyframes ani{
+
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform:translateX(-100%);
+    }
+
+}
+
+.nine-section-container h1 video{
+    width: 14%;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 50%;
+}
+
+/* ten-setion-container */
+.ten-section-container{
+    width: 100%;
+    height: 182vh;
+}
+
+.card-ani {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+border-bottom: 1px solid rgba(128, 128, 128, 0.568);
+border-top: 1px solid rgba(128, 128, 128, 0.768);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.945);
+    /* border: 1px solid red; */
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+.card-ani h1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+
+}
+.inner-card-ani {
+    width: auto;
+    height: 0;
+    background-color: white;
+    transition: .3s all linear;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: -100px;
+    
+}
+.h1-rotation {
+    width: 1900px;
+    display: flex;
+    animation-name: inner;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* border: 2px solid red; */
+    gap: 20px;
+    opacity: 0;
+    padding: 0px 10px;
+}
+
+
+.fa-arrow-right{
+    transform: rotate(-40deg);
+}
+.card-ani:hover .inner-card-ani {
+    height: 100%;
+    transition: .3s all linear;
+}
+.card-ani:hover .h1-rotation {
+   opacity: 1;
+    transition: .3s all linear;
+}
+
+@keyframes inner{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+
+
+.tenth-section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+.tenth-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    padding-left: 100px;
+    /* border: 2px solid blue; */
+}
+.tenth-left h1{
+    width: 60%;
+    color: white;
+    font-weight: normal;
+}
+.tenth-left span{
+    font-size: 15px;
+   
+}
+.tenth-left button{
+    padding: 5px 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+}
+.tenth-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    /* border: 2px solid yellow; */
+}
+.tenth-right h1{
+    width: 40%;
+    color: white;
+    font-weight: normal;
+
+}
+.tenth-right span{
+    font-size: 15px;
+}
+.tenth-right button{
+    padding: 5px 15px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+}
+
